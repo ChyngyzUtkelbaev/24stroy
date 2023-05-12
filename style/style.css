@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bottom {
+    font-size: small!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.containers {
+    padding: 1rem 9.5rem!important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #00000021;
+}
+
+.nav-bottom {
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    background-image: url('../img/aside.jpg');
+    background-size: cover;
+}
+
+main {
+    background-color: #dddddd;
+    padding-top: 2rem;
+}
+
+main span {
+    display: flex;
+    align-items: center;
+
+}
+
+main span .save {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 16px;
+    margin-right: 1rem;
+}
+
+main span img {
+    height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+.footer-blocks h6 {
+    color: #000;
+    border-bottom: 2px solid #4787db;
+    padding-bottom: 0.8rem;
+}
+
+.second-footer {
+    background-image: url('../img/footer.jpg');
+    background-size: cover;
+}
+
+.second-footer .social-media a {
+    height: 3rem;
+}
+.social-media {
+    margin-bottom: 1rem;
+}
+.second-footer .social-media a img {
+    height: 3rem;
+}
+.second-footer p {
+    font-size: small;
+}

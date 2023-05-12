@@ -1,0 +1,323 @@
+.top-nav {
+    padding: 1.5rem;
+    background-image: url('../img/aside.jpg');
+    margin-bottom: 0.5rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-list li {
+    margin-right: 3rem;
+}
+.nav-list li a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.nav-bottom {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.nav-num-list {
+    list-style: none;
+}
+
+.nav-num-list li a h1 {
+    color: rgb(92, 92, 92);
+    font-size: medium;
+}
+
+.nav-num-list li a h1:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.catalog-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    background-color: #4787db;
+    color: #fff;
+}
+
+.search-box {
+    margin-left: 0.8rem ;
+    border-radius: 5px;
+    display: flex;
+    width: 50%;
+}
+
+.search-boxx {
+    padding: 0.8rem 6rem;
+    border-radius: 5px;
+    display: flex;
+    width: 490px;
+}
+
+.nav-bottom-right {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bottom-right li {
+    margin-right: 1rem;
+}
+
+.catalog-button {
+    display: flex;
+    align-items: center;
+}
+
+aside h2 {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.catalog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
+    grid-gap: 1.3rem;
+}
+
+.red-top-grid {
+    background-color: #4787db;
+    padding: 0.5rem;
+}
+
+.grid-card {
+    background-color: #fff!important;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.grid-list {
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+.grid-list li {
+    margin-bottom: 0.2rem;
+    font-size: small;
+}
+
+.grid-list li a {
+    padding: auto 5px;
+}
+.grid-list li a h4 {
+    text-align: center;
+    
+}
+.grid-list li a h4:hover {
+    color: black;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+
+
+.grid-list li a:hover {
+    background-color: #4787db;
+    color: #fff;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.grid-list li:first-child {
+    margin-bottom: 1rem;
+}
+
+
+.button {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.9rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.stick {
+    padding: 1.5px 12px;
+    border-radius: 25%;
+    background-color: #4787db;
+}
+main {
+    background-color: #fff;
+}
+
+.stroi-card {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: dashed 1px #4787db;
+}
+.stroi-card:hover {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    transition: 0.3s;
+}
+
+.stroi-card-one img {
+    width: 50%!important;
+}
+
+.stroi-card-one {
+    display: flex;    
+    justify-content: center;
+    margin: 1rem;
+}
+.stroi-card-two {
+    text-align: center;
+    gap: 1rem;
+}
+
+.stroi-card-three {
+    gap: 1rem;
+}
+
+.stroi-card-three ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.stroi-card-three ul li {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.stroi-card-three ul li button {
+    padding: 0.5rem 1rem;
+    font-size: larger;
+    border: solid 1px #d4d4d4;
+    width: 100%;
+}
+
+.stroi-card-three ul li input {
+    border: solid 1px #d4d4d4;
+    width: 650%;
+    text-align: center;
+}
+
+.stroi-card-three ul li:nth-child(2) button {
+    background: #4787db;
+    margin-top: 1rem;
+    color: #d4d4d4;
+}
+
+.stroi-card-three ul li a {
+    padding: 0.5rem 1.65rem;
+    margin-top: 1rem;
+    font-size: small;
+    border: dashed 1px #4787db;
+}
+
+main span {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.search-box form input {
+    width: 400px!important;
+}
+.search-box form button {
+    border-color: #4787db;
+    color: #4787db;
+}
+
+.search-box form button:hover {
+    border-color: #4787db;
+    background: #4787db;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.dropdown button {
+    border: none;
+    background: #4787db;
+}
+.dropdown button:hover {
+    border: none;
+    background: #2d578d;
+}
+
+
+.cheap-prices span {
+    display: flex;
+    align-items: center;
+}
+.cheap-prices span img {
+    margin-right: 2rem;
+}
+
+.cheap-price-blocks {
+    display: flex;
+    padding-top: 2rem;
+    gap: 4rem;
+}
+
+.cheapy-price {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    color: #fff;
+    width: 330px;
+    height: 230px;
+    padding: 1.5rem;
+    background: url('../img/ads.jpg') center / 100%,
+    #000 bottom / 30px 330px no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff!important;
+}
+
+.about-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-images .about-logo{
+    width: 300px;
+}
+
+.under-about {
+    text-align: left;
+    color: #fff;
+}
+.under-about p, ul li {
+    color: #fff;
+}
+
